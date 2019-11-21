@@ -691,7 +691,8 @@ header {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  background-color: #79c5d5;
+  position: absolute;
+  z-index: 5;
 }
 
 header img {

@@ -1,6 +1,8 @@
 header {
 	@include full;
-	background-color: $accent;
+	position: absolute;
+	z-index: 5;
+	// background-color: $accent;
 	img {
 		max-width: 10%
 	}
