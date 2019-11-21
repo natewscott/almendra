@@ -62,20 +62,29 @@ a {
         font-weight: 300;
     }
 }
-.two-col {
+.col-2 {
+    min-height: 150px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-2 {
     display: flex;
-    flex-direction:column;
-    flex: 1;
-    @include breakpoint(medium) {
-        flex-direction:row;
-    }
-    article {
-        width: 50%;
-        // max-height: 500px;
-    }
-    .text {
-        padding: 0 5% 0 5%;
-    }
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.col {
+    display: flex;
+    min-height: 40px;
+    flex: 1 0 auto;
+}
+.grid-sm {
+    flex-basis:33.33%;
+    max-width: 33.33%
+}
+.grid-lr {
+    flex-basis:66.66%;
+    max-width: 66.66%;
 }
 
 .app-items {

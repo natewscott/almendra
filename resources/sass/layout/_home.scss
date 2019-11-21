@@ -29,8 +29,9 @@
 		margin-bottom: 0;
 	}
 }
-.main-house,
-.town {
+#main-house,
+#town,
+#surfing {
 	@include full;
 
 	h1 {
