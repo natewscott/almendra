@@ -411,7 +411,7 @@ h2,
 h3,
 h4 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h1 {
@@ -567,13 +567,6 @@ html {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  z-index: -2;
-  width: 100%;
-  height: 100vh;
-  background-image: url(/img/surfing/a4d3d7b2-d311-45db-9adc-8d153416f62c.f10.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 body *,
@@ -629,7 +622,6 @@ a {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  padding-bottom: 5%;
 }
 
 .content {
@@ -659,6 +651,26 @@ a {
   font-weight: 300;
 }
 
+.two-col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+@media (min-width: 47em) {
+  .two-col {
+    flex-direction: row;
+  }
+}
+
+.two-col article {
+  width: 50%;
+}
+
+.two-col .text {
+  padding: 0 5% 0 5%;
+}
+
 .app-items li {
   margin: 1.5%;
   display: inline-block;
@@ -679,6 +691,10 @@ header {
   float: left;
   margin-left: 0;
   margin-right: 0;
+  background-color: #79c5d5;
+}
+
+header img {
   max-width: 10%;
 }
 
@@ -723,7 +739,6 @@ footer {
   margin-right: 0;
   background: #164056;
   text-align: center;
-  margin-top: 5%;
   color: white;
   font-size: 12px;
 }
@@ -834,34 +849,23 @@ footer #copyright {
   justify-content: center;
 }
 
-footer {
-  margin-top: 0;
-  background-color: #198a9c;
-}
-
-form {
+footer form {
   text-align: left;
   margin-left: 5%;
   padding-bottom: 10%;
   max-width: 35%;
 }
 
-input,
-textarea {
-  background-color: #198a9c;
+footer input[type=text],
+footer input[type=email],
+footer textarea {
+  background-color: rgba(25, 138, 156, 0.9);
 }
 
-input:focus,
-textarea:focus {
+footer input[type=text]:focus,
+footer input[type=email]:focus,
+footer textarea:focus {
   background-color: white;
-}
-
-#foot-contact {
-  background-color: #39a7b8;
-}
-
-#foot-contact:hover {
-  background-color: #164056;
 }
 
 button::-moz-focus-inner,
@@ -1443,6 +1447,104 @@ fieldset .legend {
 
 .btn:hover {
   background-color: #7fccd8;
+}
+
+.grid-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.grid_item {
+  background-color: lightgray;
+  background-position: center center;
+  background-size: cover;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 120px;
+  height: 200px;
+  margin: 0 2px 0 2px;
+}
+
+.home-intro::after {
+  display: block;
+  position: fixed;
+}
+
+.home-intro {
+  height: 100vh;
+  background-image: url(/img/surfing/looking_out_of_wave.jpg);
+  background-size: cover;
+  z-index: 2;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  position: relative;
+}
+
+.intro-text {
+  color: #18293b;
+  line-height: 0;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: -10px;
+  z-index: 1;
+}
+
+.intro-text h1,
+.intro-text h2 {
+  line-height: 1.25;
+  margin-bottom: 0;
+}
+
+.main-house,
+.town {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.main-house h1,
+.town h1 {
+  text-align: center;
+  color: #198a9c;
+  text-decoration: underline;
+  large-em: 2.3529411765rem;
+  font-size: 24px;
+  font-size: 1.4117647059rem;
+  line-height: 2.2588235294rem;
+  padding-top: 3%;
+}
+
+@media (min-width: 360px) {
+  .main-house h1,
+  .town h1 {
+    font-size: 32px;
+    font-size: calc(2.2253129346vw + 24px - 0.0222531293 * 360px);
+    line-height: 54.2px;
+    line-height: calc(4.3949930459vw + 38.4px - 0.0439499305 * 360px);
+  }
+}
+
+@media (min-width: 1080px) {
+  .main-house h1,
+  .town h1 {
+    font-size: 40px;
+    font-size: large-em;
+    line-height: 4.1176470588rem;
+  }
+}
+
+.main-house .map,
+.town .map {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /*!

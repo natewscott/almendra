@@ -1,0 +1,49 @@
+.home-intro::after {
+	display: block;
+	position: fixed;
+}
+.home-intro {
+	height: 100vh;
+	background-image: url(/img/surfing/looking_out_of_wave.jpg);
+	background-size: cover;
+	z-index: 2;
+	display: flex;
+	flex-flow: column;
+	justify-content:center;
+	position: relative;
+	
+}
+.intro-text {
+		color: $black;
+		line-height: 0;
+		// border: 1.5px solid;
+		position: relative;
+	    display: inline-block;
+	    text-align: center;
+	    margin-bottom:-10px;
+	    z-index: 1;
+
+	    h1,
+		h2 {
+		line-height: 1.25;
+		margin-bottom: 0;
+	}
+}
+.main-house,
+.town {
+	@include full;
+
+	h1 {
+		text-align: center;
+		color: $primary;
+		text-decoration: underline;
+		@include responsive-typography(24px, 40px);
+		padding-top: 3%;
+	}
+	p {
+		
+	}
+	.map {
+		@include full;
+	}
+}

@@ -1,9 +1,7 @@
 header {
 	@include full;
-	// margin: 0 auto;
-	max-width: 10%;
-
-}
-.home-hero {
-	
+	background-color: $accent;
+	img {
+		max-width: 10%
+	}
 }

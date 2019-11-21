@@ -37,7 +37,7 @@ footer {
 
     background: $secondary;
     text-align: center;
-    margin-top: 5%;
+    // margin-top: 5%;
     color: white;
     font-size: 12px;
 
@@ -108,29 +108,23 @@ footer {
         display: flex;
         justify-content: center;
     }
-}
-footer {
-        margin-top: 0;
-        background-color: $primary;
-    }
     form {
         text-align: left;
         margin-left: 5%;
         padding-bottom: 10%;
         max-width: 35%;
     }
-    input,
+    input[type=text],
+    input[type=email],
     textarea {
-        background-color: $primary;
+        background-color: rgba($primary,.9);
 
         &:focus {
             background-color: white;
         }
+        
     }
-    #foot-contact {
-        background-color: $link;
+    
+}
 
-        &:hover {
-            background-color: $secondary;
-        }
-    }
+    
