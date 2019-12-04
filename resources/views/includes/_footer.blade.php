@@ -31,6 +31,9 @@
 					<textarea name="msg" id="msg" cols="30" rows="10" required="required"></textarea>
 				</div>
 			</div>
+			<div class="buttons">
+				<button class="primary button">Send Message</button>
+			</div>
 		</fieldset>
 	</form>
 </footer>
