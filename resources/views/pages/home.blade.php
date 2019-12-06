@@ -61,7 +61,7 @@
 			</article>
 			<aside class="col col-1-3 md">
 				<div class="module">
-					<h1>Iguana’s Restaurant and Shopping</h1>
+					<h1>Restaurant and Shopping</h1>
 					<p>
 						Within the community of Hacienda Iguana there are currently six restaurants and a brewery. The restaurant at the beach club serves healthy and delicious plates for breakfast, lunch and dinner and has a great beach bar with happy hour specials. Don Eloy’s bar and restaurant serves sandwiches, wings, bar food and pizza, has a full bar and is open from 3-11pm. This is also a great place to watch sports games. Scoops and Spokes is an artisan ice cream, coffee, juice and panini shop. Scoops and Spokes is also the place to go for bike rentals and bike tours. The 10th hole is right behind the Iguana Surf Rentals office and has burritos, club sandwiches, hot dogs and hamburgers and is open for breakfast and lunch. Casa Maderas is a restaurant with local Nicaraguan cuisine, open for lunch and dinner, and located in the wood house just east of the golf condos. Lastly, Casa Ananas (located just east of the golf condos) is open for dinner on selected nights with special menus including: seafood, pizza, Italian, Mexican or Thai cuisine. It is best to check their Facebook page for each night's special. The brewery has just opened and is right next to NSR Surf Shop and is a great place to watch sports.
 					</p>

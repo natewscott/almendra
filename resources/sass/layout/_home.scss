@@ -41,9 +41,10 @@
 	@include full;
 
 	h1 {
-		text-align: center;
+		// text-align: center;
 		color: $primary;
 		@include responsive-typography(24px, 38px);
+		font-family: $script;
 		padding-top: 3%;
 	}
 	p {

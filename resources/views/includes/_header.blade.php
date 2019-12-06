@@ -13,6 +13,6 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Permanent+Marker&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
-
+  
   <meta name="theme-color" content="#fafafa">
 </head>
