@@ -34,21 +34,24 @@
 
 footer {
     @include full;
-
+   
+   section {
     background: $secondary;
     color: white;
     font-size: 12px;
     display: flex;
     flex-direction:row;
     justify-content: space-around;
+   } 
 
     article {
         margin: 3%;
-        max-width: 50%;
+        // max-width: 50%;
     }
     
     h1 {
-        @include responsive-typography(24px, 28px)
+        @include responsive-typography(24px, 28px);
+        text-align: right;
     }
     
     .social-icon {
@@ -67,8 +70,25 @@ footer {
             }
         }
     }
+    .foot-book {
+        flex: 2;
+     
+    .button {
+        float: right;
+    }
+    
+    .footer-book {
+        color:darken($primary,50%);
+    
+         &:hover {
+            color:$primary;
+        }
+
+    }
+}
 
     form {
+        flex: 1;
         text-align: left;
     }
 

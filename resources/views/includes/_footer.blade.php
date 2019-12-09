@@ -1,4 +1,5 @@
 <footer class="site-footer">
+<section class="footer">
 	<article>
 		<form action="">
 			<fieldset>
@@ -38,16 +39,13 @@
 			</fieldset>
 		</form>
 	</article>
-	<article>
-		<h1>Social Media</h1>
-		<hr>
-		<a href="https://www.instagram.com/casaalmendrasurf/" target="_blank" class="social-icon">
-			<i class="fa fa-instagram"></i>
-		</a>
-		<a href="https://www.facebook.com/pages/Casa-Almendra/104176264297569?__tn__=kC-R&eid=ARDEK5qm5uY9ybVQBTukkoC2zukNAwtHQvLsTuVp8I457t96JAG1OoaHN10SgHFkIiTPQwuP0V-1RqHJ&hc_ref=ARQ4uYytUokE6Lirs9-guE8zr6Yd0ch5chG91Q0wDCeHkgPkSY0WGRzFuA968PLhWW4&fref=tag&__xts__[0]=68.ARDP67mFnoQu0tcQdBHbI8rhYAcAbid0z5Zbyw-dJpTHaZSfXAcJDAhvudjksP8EBSyLWT1bwTyaCg19t32khiTcxePcRUBKXAXl8zg1jb6keURrTiDJ8bXQsEDrPfSq3N9OsOuk1U0ppeqkN9wK1QeA4q318yJZ_JkWNQvLZOhafk20F_3vGf2gwugIL9XVpuQkLW4y09mClgYiV9vbxjqVPdKXQPZtZNaKgV4UVQogj_4eQHcTNoVdXI7j45DS3m8ZOQ" target="_blank" class="social-icon">
-			<i class="fa fa-facebook-f"></i>
-		</a>
+	<article class="foot-book">
+		<h1>Spend your vacation with us</h1>
+		<button class="primary button">
+		<a href="https://www.vrbo.com/1603268" target="_blank" class="footer-book">Book your trip</a>
+		</button>
 	</article>
+</section>
 </footer>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>

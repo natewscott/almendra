@@ -31,7 +31,9 @@ a {
     color: $link;
     text-decoration: none;
 }
-
+.fa {
+    color:$accent;
+}
 .page-wrap {
     @include full;
 }

@@ -608,6 +608,10 @@ a {
   text-decoration: none;
 }
 
+.fa {
+  color: #79c5d5;
+}
+
 .page-wrap {
   clear: both;
   width: 100%;
@@ -747,6 +751,9 @@ footer {
   float: left;
   margin-left: 0;
   margin-right: 0;
+}
+
+footer section {
   background: #164056;
   color: white;
   font-size: 12px;
@@ -757,7 +764,6 @@ footer {
 
 footer article {
   margin: 3%;
-  max-width: 50%;
 }
 
 footer h1 {
@@ -765,6 +771,7 @@ footer h1 {
   font-size: 24px;
   font-size: 1.4117647059rem;
   line-height: 2.2588235294rem;
+  text-align: right;
 }
 
 @media (min-width: 360px) {
@@ -801,7 +808,24 @@ footer .social-icon .fa:hover {
   color: #7fccd8;
 }
 
+footer .foot-book {
+  flex: 2;
+}
+
+footer .foot-book .button {
+  float: right;
+}
+
+footer .foot-book .footer-book {
+  color: black;
+}
+
+footer .foot-book .footer-book:hover {
+  color: #198a9c;
+}
+
 footer form {
+  flex: 1;
   text-align: left;
 }
 
@@ -1656,7 +1680,7 @@ fieldset .legend {
 #main-house h1,
 #town h1,
 #surfing h1 {
-  color: #198a9c;
+  color: #79c5d5;
   large-em: 2.2352941176rem;
   font-size: 24px;
   font-size: 1.4117647059rem;
@@ -1694,6 +1718,18 @@ fieldset .legend {
   float: left;
   margin-left: 0;
   margin-right: 0;
+}
+
+.amenities {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  float: left;
+  color: #79c5d5;
+}
+
+.amenities span {
+  padding-left: 2%;
 }
 
 #book {

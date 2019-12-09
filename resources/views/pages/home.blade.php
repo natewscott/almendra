@@ -20,6 +20,30 @@
 					<p>
 						Gorgeous, newly renovated, luxury 4 bedroom beachfront house with large pool and arguably the best views of Colorados beach break. The house is located on the beach directly in front of the main peak of the world class beach break Colorados, just a 15 minute walk from Panga Drops surf break and is just 50 yards (1 minute walk) from the community beach club, pool, restaurant and bar. No expense has been spared in the renovation.
 					</p>
+					<ul class="amenities">
+						<li>
+							<i class="fa fa-bed"></i>
+							<span>Bedrooms: 4</span>
+						</li>
+						<li>
+							<i class="fa fa-users"></i>
+							<span>Sleeps: 4</span>
+						</li>
+						<li>
+							<i class="fa fa-bath"></i>
+							<span>Bathrooms: 3</span>
+						</li>
+					</ul>
+					<ul class="amenities">
+						<li>
+							<i class="fa fa-wifi"></i>
+							<span>Internet</span>
+						</li>
+						<li>
+							<i class="fa fa-tv"></i>
+							<span>T.V. / Satellite</span>
+						</li>
+					</ul>
 				</div>
 			</aside>
 		</div>

@@ -42,7 +42,7 @@
 
 	h1 {
 		// text-align: center;
-		color: $primary;
+		color: $accent;
 		@include responsive-typography(24px, 38px);
 		font-family: $script;
 		padding-top: 3%;
@@ -52,6 +52,17 @@
 	}
 	.map {
 		@include full;
+	}
+}
+.amenities {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	float: left;
+	color: $accent;
+
+	span {
+		padding-left: 2%;	
 	}
 }
 #book {
