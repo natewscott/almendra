@@ -21,7 +21,15 @@
     }
 }
 
+@mixin button {
+    border-radius: 25px;
+    background-color: darken($primary, 5%);
 
+    &:hover {
+        background-color: rgba($primary, 0);
+    }
+}
+// 
 /* BREAKPOINT MIXINS */
 @mixin bp-small {
     @media (min-width: 480px) {
