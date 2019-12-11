@@ -655,6 +655,35 @@ a {
   font-weight: 300;
 }
 
+.pull-quote {
+  max-width: 75%;
+  margin: 0 auto;
+  font-family: "Permanent Marker", cursive;
+  large-em: 2.2352941176rem;
+  font-size: 24px;
+  font-size: 1.4117647059rem;
+  line-height: 2.2588235294rem;
+  text-align: center;
+  color: #164056;
+}
+
+@media (min-width: 360px) {
+  .pull-quote {
+    font-size: 31px;
+    font-size: calc(1.9471488178vw + 24px - 0.0194714882 * 360px);
+    line-height: 52.45px;
+    line-height: calc(3.9082058414vw + 38.4px - 0.0390820584 * 360px);
+  }
+}
+
+@media (min-width: 1080px) {
+  .pull-quote {
+    font-size: 38px;
+    font-size: large-em;
+    line-height: 3.9117647059rem;
+  }
+}
+
 .col-2 {
   min-height: 150px;
   max-width: 90%;
@@ -824,6 +853,10 @@ footer .foot-book a {
   }
 }
 
+footer .foot-book a:hover {
+  color: #7fccd8;
+}
+
 footer .social {
   padding-top: 1.5%;
   max-width: 500px;
@@ -860,17 +893,6 @@ footer input[type=text]:focus,
 footer input[type=email]:focus,
 footer textarea:focus {
   background-color: white;
-}
-
-footer .button {
-  background-color: #8ac3e1;
-  color: black;
-  border-radius: 25px;
-}
-
-footer .button:hover {
-  color: #198a9c;
-  background-color: #164056;
 }
 
 button::-moz-focus-inner,

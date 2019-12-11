@@ -78,6 +78,12 @@
 		</div>
 	</section>
 	<section class="surf-para">
+		<p class="pull-quote">
+			<em>
+				"Staying in a house like this with the best beach I've ever surfed just footsteps out the back door was unforgettable."
+			</em>
+			<br>- Michael B.
+		</p>
 	</section>
 </section>
 <section id="town">

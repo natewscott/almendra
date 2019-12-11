@@ -64,6 +64,9 @@ footer {
             text-transform: uppercase;
             line-height: 0;
             @include responsive-typography(24px, 28px);
+            &:hover {
+                color: $hover;
+            }
         }
     }
     
@@ -104,16 +107,5 @@ footer {
         }
         
     }
-    .button {
-        background-color: lighten($secondary, 50%);
-        color:darken($primary, 50%);
-        border-radius: 25px;
-
-        &:hover {
-            color:$primary;
-            background-color: $secondary;
-        }
-    }
-    
 }
     
