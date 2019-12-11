@@ -24,6 +24,7 @@
 @mixin button {
     border-radius: 25px;
     background-color: darken($primary, 5%);
+    font-weight: 300;
 
     &:hover {
         background-color: rgba($primary, 0);
