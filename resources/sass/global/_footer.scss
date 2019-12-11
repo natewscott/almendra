@@ -51,41 +51,39 @@ footer {
     
     h1 {
         @include responsive-typography(24px, 28px);
-        text-align: right;
+        text-align: center;
     }
-    
-    .social-icon {
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-        margin-right: 15%;
-        
-        .fa {
-            line-height: 50px;
-            font-size: 36px;
-            color: $link;
 
-            &:hover {
-                color:$hover;
-            }
-        }
-    }
     .foot-book {
+        display: flex;
+        flex-direction:column;
         flex: 2;
-     
-    .button {
-        float: right;
-    }
-    
-    .footer-book {
-        color:darken($primary,50%);
-    
-         &:hover {
-            color:$primary;
-        }
+        align-items:center;
 
+        a {
+            text-transform: uppercase;
+            line-height: 0;
+            @include responsive-typography(24px, 28px);
+        }
     }
-}
+    
+    .social {
+        padding-top: 1.5%;
+        max-width: 500px;
+        text-transform: uppercase;
+        line-height: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap;
+
+        img {
+            margin: 5px;
+            width: 150px;
+            height: 150px;
+            max-width: 100%;
+        }
+    }
+    
 
     form {
         flex: 1;
@@ -118,5 +116,4 @@ footer {
     }
     
 }
-
     
