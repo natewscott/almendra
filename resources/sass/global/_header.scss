@@ -1,9 +1,10 @@
 header {
 	@include full;
-	position: absolute;
+	
 	z-index: 5;
-	// background-color: $accent;
 	img {
-		max-width: 10%
+		height: auto;
+		max-width: 100%;
+		vertical-align: middle;
 	}
 }
