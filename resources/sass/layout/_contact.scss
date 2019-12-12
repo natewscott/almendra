@@ -1,0 +1,23 @@
+.contact-form {
+	@include full;
+
+	.contact {
+		max-width: 1280px;
+		margin: 0 auto;
+		// margin-top: 2%;
+		padding: 5%;
+	}
+	form {
+		max-width: 65%;
+	}
+	fieldset {
+		border-radius: 30px;
+	}
+	.button {
+		@include button;
+
+		&:hover {
+			background-color: rgba($primary, 10);
+		}
+	}
+}

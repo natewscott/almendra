@@ -1,5 +1,5 @@
 <header>
-    <a href="{{-- {{ route('home')}} --}} " class="logo o-link" id="brand">
+    <a href="{{ route('home')}} " class="logo o-link" id="brand">
       <img src="img/logos/casa_almendra_logo-02.svg" alt="Paris Valley Ranch Logo" title="Paris Valley Ranch Logo">
     </a>
     <nav class="c-top-nav o-container t-slideH">
@@ -9,10 +9,10 @@
                 <a href="{{-- {{ route('about')}} --}} " class="c-navlist__link o-link">About</a>
             </li>
             <li class="c-navlist__item">
-                <a href="{{-- {{ route('info')}} --}} " class="c-navlist__link o-link">Igunana</a>
+                <a href="{{-- {{ route('info')}} --}} " class="c-navlist__link o-link">Iguana</a>
             </li>
             <li class="c-navlist__item">
-                <a href="{{-- {{ route('contact')}} --}} " class="c-navlist__link o-link">Contact</a>
+                <a href="{{ route('contact')}} " class="c-navlist__link o-link">Contact</a>
             </li>
         </ul>
     </nav>
