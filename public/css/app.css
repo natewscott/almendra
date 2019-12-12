@@ -2238,14 +2238,26 @@ header {
   margin-right: 0;
 }
 
-.contact-form .contact {
+.contact-form .contact-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   max-width: 1280px;
   margin: 0 auto;
   padding: 5%;
 }
 
-.contact-form form {
+.contact-form .contact-content article {
   max-width: 65%;
+}
+
+.contact-form .contact-content #rules {
+  line-height: 0;
+  margin-bottom: 0;
+}
+
+.contact-form .contact-content strong {
+  text-transform: uppercase;
 }
 
 .contact-form fieldset {
