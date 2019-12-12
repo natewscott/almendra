@@ -9,15 +9,15 @@
 }
 
 header {
-    position: relative;
-
+    position: absolute;
+	
     // background-color: $secondary;
     min-height: 50px;
 }
 
 .logo {
     position: absolute;
-    top: -30px;
+    // top: -30px;
     left: 10px;
     z-index: 1;
     text-transform: uppercase;
@@ -41,7 +41,7 @@ header {
     top: 0;
     font-size: 21px;
     display: inline-block;
-    background: #DCB149;
+    background-color: lighten($link, 25);
     color: #242320;
     width: 50px;
     height: 50px;
@@ -68,7 +68,7 @@ header {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
-    color: $link;
+    color: darken($link, 25);
     padding: 15px;
     min-width: 200px;
     border-bottom: 1px solid #4e4b43;
