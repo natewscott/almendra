@@ -6,7 +6,7 @@
         <a href="#" class="c-mobile-navlist-trigger nav-right o-link">&#9776;</a>
         <ul class="c-navlist">
             <li class="c-navlist__item">
-                <a href="{{-- {{ route('about')}} --}} " class="c-navlist__link o-link">About</a>
+                <a href="{{ route('about')}} " class="c-navlist__link o-link">About</a>
             </li>
             <li class="c-navlist__item">
                 <a href="{{-- {{ route('info')}} --}} " class="c-navlist__link o-link">Iguana</a>

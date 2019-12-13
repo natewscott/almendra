@@ -46,7 +46,7 @@
 						</div>
 					</div>
 					<div class="buttons">
-						<buttons class="priamry button">Send Message</buttons>
+						<buttons class="priamry button">Contact Us</buttons>
 					</div>
 				</fieldset>
 			</form>

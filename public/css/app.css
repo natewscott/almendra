@@ -2240,6 +2240,11 @@ header {
   background-image: url(/img/house/house-at-dusk.jpg);
 }
 
+#about-img {
+  background-image: url(/img/town/sunset-beach.jpg);
+  background-position: 100% 40%;
+}
+
 .contact-form {
   clear: both;
   width: 100%;
@@ -2286,6 +2291,59 @@ header {
 
 .contact-form .button:hover {
   background-color: #198a9c;
+}
+
+.about-us {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.about-us .about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.about-us .about-content article {
+  flex: 2;
+  margin-right: 5%;
+}
+
+.about-us .about-content aside {
+  flex: 1;
+}
+
+.about-us .about-content aside img {
+  max-width: 75%;
+  height: auto;
+}
+
+.about-us .about-content h1 {
+  color: #79c5d5;
+  font-family: "Permanent Marker", cursive;
+  large-em: 2.2352941176rem;
+  font-size: 24px;
+  font-size: 1.4117647059rem;
+}
+
+@media (min-width: 360px) {
+  .about-us .about-content h1 {
+    font-size: 31px;
+    font-size: calc(1.9471488178vw + 24px - 0.0194714882 * 360px);
+  }
+}
+
+@media (min-width: 1080px) {
+  .about-us .about-content h1 {
+    font-size: 38px;
+    font-size: large-em;
+  }
 }
 
 /*!
