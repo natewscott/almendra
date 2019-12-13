@@ -1,7 +1,7 @@
 <footer class="site-footer">
 	<section class="footer">
 		<article>
-			{{-- <form action="">
+			<form action="">
 				<fieldset>
 					<h3 class="legend">Contact Us</h3>
 					<hr>
@@ -37,7 +37,7 @@
 						<button class="primary button">Send Message</button>
 					</div>
 				</fieldset>
-			</form> --}}
+			</form>
 		</article>
 		<article class="foot-book">
 			<div >

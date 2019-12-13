@@ -9,7 +9,7 @@
                 <a href="{{ route('about')}} " class="c-navlist__link o-link">About</a>
             </li>
             <li class="c-navlist__item">
-                <a href="{{-- {{ route('info')}} --}} " class="c-navlist__link o-link">Iguana</a>
+                <a href="{{ route('activities')}} " class="c-navlist__link o-link">Activities</a>
             </li>
             <li class="c-navlist__item">
                 <a href="{{ route('contact')}} " class="c-navlist__link o-link">Contact</a>

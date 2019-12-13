@@ -2245,6 +2245,11 @@ header {
   background-position: 100% 40%;
 }
 
+#act-img {
+  background-image: url(/img/town/boats.jpg);
+  background-position: center center;
+}
+
 .contact-form {
   clear: both;
   width: 100%;
@@ -2291,6 +2296,10 @@ header {
 
 .contact-form .button:hover {
   background-color: #198a9c;
+}
+
+.contact-form footer form {
+  display: none;
 }
 
 .about-us {
@@ -2344,6 +2353,65 @@ header {
     font-size: 38px;
     font-size: large-em;
   }
+}
+
+.activities {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.activities .act-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.activities .act-content .img-text {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 5%;
+  margin-bottom: 2%;
+}
+
+.activities .act-content .img-text h1 {
+  color: #198a9c;
+  text-align: left;
+  line-height: 1.25;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+.activities .act-content .img-text img {
+  float: left;
+  width: 100%;
+  margin-right: 5%;
+}
+
+@media (min-width: 47em) {
+  .activities .act-content .img-text img {
+    width: 40%;
+    margin-bottom: 3%;
+  }
+}
+
+.activities .act-content .img-text h2 {
+  line-height: 0.5;
+  margin-bottom: 0;
+}
+
+.activities .act-content .img-text h3 {
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: #79c5d5;
 }
 
 /*!
