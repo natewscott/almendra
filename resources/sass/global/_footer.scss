@@ -105,7 +105,9 @@ footer {
         &:focus {
             background-color: white;
         }
-        
+    }
+    .button {
+        @include button;
     }
 }
     
