@@ -737,12 +737,6 @@ header {
   z-index: 5;
 }
 
-@media (min-width: 47em) {
-  header {
-    background-color: rgba(25, 138, 156, 0.1);
-  }
-}
-
 header img {
   max-width: 50%;
 }
@@ -1710,7 +1704,7 @@ header {
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  color: #1b4f57;
+  color: #198a9c;
   padding: 15px;
   min-width: 200px;
   border-bottom: 1px solid #4e4b43;
@@ -2014,6 +2008,10 @@ header {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
   }
+}
+
+#home .c-navlist__link {
+  color: #164056;
 }
 
 .home-intro::after {

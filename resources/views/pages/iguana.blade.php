@@ -1,4 +1,5 @@
 @extends('inner')
+<body id="activities">
 @section('content')
 <article class="hero-unit" id="act-img">
 	<h1>Activities</h1>

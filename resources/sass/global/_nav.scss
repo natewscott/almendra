@@ -68,7 +68,7 @@ header {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
-    color: darken($link, 25);
+    color: $primary;
     padding: 15px;
     min-width: 200px;
     border-bottom: 1px solid #4e4b43;

@@ -1,4 +1,5 @@
 @extends('main')
+<body id="home">
 @section('content')
 <section class="home-intro">
 	<article class="intro-text">

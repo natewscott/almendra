@@ -1,3 +1,8 @@
+#home {
+	.c-navlist__link {
+		color: $secondary;
+	}
+}
 .home-intro::after {
 	display: block;
 	position: fixed;
@@ -13,6 +18,7 @@
 	position: relative;
 	
 }
+
 .intro-text {
 		color: $secondary;
 		position: relative;
