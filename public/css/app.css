@@ -2404,12 +2404,13 @@ header {
 }
 
 .activities .act-content .img-text h2 {
-  line-height: 0.5;
+  line-height: 1.25;
   margin-bottom: 0;
 }
 
 .activities .act-content .img-text h3 {
   font-size: 1.25rem;
+  line-height: 0.75;
   font-weight: 200;
   color: #79c5d5;
 }
