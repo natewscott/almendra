@@ -737,6 +737,12 @@ header {
   z-index: 5;
 }
 
+@media (min-width: 47em) {
+  header {
+    background-color: rgba(25, 138, 156, 0.1);
+  }
+}
+
 header img {
   max-width: 50%;
 }
@@ -787,8 +793,14 @@ footer section {
   color: white;
   font-size: 12px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
+}
+
+@media (min-width: 47em) {
+  footer section {
+    flex-direction: row;
+  }
 }
 
 footer article {
@@ -2023,6 +2035,7 @@ header {
 .intro-text {
   color: #164056;
   position: relative;
+  padding: 0 5%;
   display: inline-block;
   text-align: center;
   margin-bottom: -10px;
@@ -2038,14 +2051,14 @@ header {
 
 .intro-text h1 {
   large-em: 6.3529411765rem;
-  font-size: 88px;
-  font-size: 5.1764705882rem;
+  font-size: 48px;
+  font-size: 2.8235294118rem;
 }
 
 @media (min-width: 360px) {
   .intro-text h1 {
-    font-size: 98px;
-    font-size: calc(2.7816411683vw + 88px - 0.0278164117 * 360px);
+    font-size: 78px;
+    font-size: calc(8.3449235049vw + 48px - 0.083449235 * 360px);
   }
 }
 
@@ -2058,14 +2071,14 @@ header {
 
 .intro-text h2 {
   large-em: 4rem;
-  font-size: 58px;
-  font-size: 3.4117647059rem;
+  font-size: 28px;
+  font-size: 1.6470588235rem;
 }
 
 @media (min-width: 360px) {
   .intro-text h2 {
-    font-size: 63px;
-    font-size: calc(1.3908205841vw + 58px - 0.0139082058 * 360px);
+    font-size: 48px;
+    font-size: calc(5.5632823366vw + 28px - 0.0556328234 * 360px);
   }
 }
 
@@ -2077,9 +2090,16 @@ header {
 }
 
 .intro-text button {
+  margin-top: 5%;
   border-radius: 25px;
   background-color: #157786;
   font-weight: 300;
+}
+
+@media (min-width: 47em) {
+  .intro-text button {
+    margin-top: 0;
+  }
 }
 
 .intro-text button:hover {
@@ -2107,6 +2127,7 @@ header {
 #main-house h1,
 #town h1,
 #surfing h1 {
+  text-align: center;
   color: #79c5d5;
   large-em: 2.2352941176rem;
   font-size: 24px;
@@ -2184,10 +2205,16 @@ header {
 
 #book article {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   padding: 3%;
+}
+
+@media (min-width: 47em) {
+  #book article {
+    flex-direction: row;
+  }
 }
 
 #book h1 {

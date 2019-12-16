@@ -21,7 +21,7 @@
 				<div class="module">
 					<h1>Casa Almendra</h1>
 					<p>
-						Gorgeous, newly renovated, luxury 4 bedroom beachfront house with large pool and arguably the best views of Colorados beach break. The house is located on the beach directly in front of the main peak of the world class beach break Colorados, just a 15 minute walk from Panga Drops surf break and is just 50 yards (1 minute walk) from the community beach club, pool, restaurant and bar. No expense has been spared in the renovation.
+						This house is complete with gorgeous luxury finishings, high end custom furniture, a large pool with shallow area for kids, spacious 2nd floor balcony and even a 3rd story star gazing/sunset deck. The house has a master bedroom upstairs with 2 twin beds (that can be united to make a king bed), private bathroom, direct access to a large balcony and unobstructed ocean views. There are 3 more bedrooms downstairs each with 2 twin beds (that can be united to make a king bed). One bedroom has it’s own private bathroom and the other 2 bedrooms share a bathroom. All rooms have a/c including the living area and there is wireless internet, Claro TV and a backup generator for the house that runs everything including a/c units in the case of a power outage.
 					</p>
 					<ul class="amenities">
 						<li>
@@ -64,7 +64,7 @@
 		<div class="grid-row">
 			<article class="grid-col col-2-3 md">
 				<div class="module">
-					<h1>Surfing Playa Colorado</h1>
+					<h1>Surfing</h1>
 					<p>
 						Colorados is a fast, barreling beach break with many peaks and A frames. It is a challenging break and best for intermediate to expert surfers. Panga Drops is just a 10-15 minute walk up the beach and breaks on a horse-shoe shaped rock reef. This wave generally has a mellow take off and a more vertical and playful inside section. This break can be good for long boarders or short boarders. Panga Drops amplifies swells and is usually bigger but more forgiving than Colorados. At the very north end of the beach there is a point break, Los Perros Point, that needs a good swell with the right direction to break, but with the perfect combination it can provide very fun rights. We can also arrange boats to any of the 10+ surrounding breaks.
 					</p>
