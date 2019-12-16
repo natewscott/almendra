@@ -6,7 +6,7 @@
 
   <!-- Add your site or application content here -->
   @include('includes/_head')
-  <main class="page-wrap">
+  <main>
   	<section class="main-content">
   		@yield('content')
   	</section>
