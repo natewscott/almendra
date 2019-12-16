@@ -2,9 +2,7 @@ header {
 	@include full;
 	position: absolute;
 	z-index: 5;
-	// @include breakpoint(medium) {
-	// 	background-color: rgba($accent, 20%);
-	// }
+	
 	img {
 		max-width: 50%
 	}
