@@ -11,11 +11,15 @@
         height: 450px;
     }
     h1 {
-    	font-family: $script;
-    	color: lighten($primary, 100%);
-		position: absolute;
-    	top: 350px;
-    	left: 25px
+     display: none;
+        @include breakpoint(medium) {
+            display: block;
+        	font-family: $script;
+        	color: lighten($primary, 100%);
+    		position: absolute;
+        	top: 350px;
+        	left: 25px
+    }
     }
 }
 
