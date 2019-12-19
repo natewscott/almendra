@@ -2,8 +2,14 @@ header {
 	@include full;
 	position: absolute;
 	z-index: 5;
-	
+
 	img {
 		max-width: 50%
 	}
 }
+
+// #inner  {
+// header {
+// 		background-color: rgba($accent, 30%);
+// 	}
+// }

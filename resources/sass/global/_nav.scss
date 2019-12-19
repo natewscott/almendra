@@ -255,9 +255,23 @@ body {
   .the-nav > .nav > li a {
     display: block;
     padding: 10px 10px 10px;
-    color: $link;
+    color: $secondary;
     font-weight: 500;
     text-decoration: none;
+  }
+
+  #inner {
+     .the-nav > .nav > li a {
+      display: block;
+      padding: 10px 10px 10px;
+      color: saturate($link, 50%);
+      font-weight: 500;
+      text-decoration: none;
+      
+      &:hover {
+        color: $hover;
+      }
+    }
   }
 
   .the-nav > .nav > li:nth-of-type(1) > a {

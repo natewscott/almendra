@@ -1,7 +1,7 @@
 @extends('inner')
 @section('content')
 <article class="hero-unit" id="act-img">
-	<h1>Activities</h1>
+	<h1>Nicaragua</h1>
 </article>
 <section class="activities">
 	<section class="act-content">
