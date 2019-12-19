@@ -2406,9 +2406,20 @@ a.gh-btn:hover {
   }
 }
 
-.about-us .about-content article {
+.about-us .about-content .about {
   flex: 2;
   margin-right: 5%;
+}
+
+.about-us .about-content .about figure {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-us .about-content .about figure img {
+  margin-right: 2%;
+  max-width: 11.5%;
 }
 
 .about-us .about-content aside {
@@ -2416,7 +2427,7 @@ a.gh-btn:hover {
 }
 
 .about-us .about-content aside img {
-  max-width: 100%;
+  max-width: 7%;
   height: auto;
 }
 

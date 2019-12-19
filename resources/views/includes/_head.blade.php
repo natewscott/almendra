@@ -1,22 +1,3 @@
-{{-- <header>
-    <a href="{{ route('home')}} " class="logo o-link" id="brand">
-        <img src="img/logos/casa_almendra_logo-02.svg" alt="Paris Valley Ranch Logo" title="Paris Valley Ranch Logo">
-    </a>
-    <nav class="c-top-nav o-container t-slideH">
-        <a href="#" class="c-mobile-navlist-trigger nav-right o-link">&#9776;</a>
-        <ul class="c-navlist">
-            <li class="c-navlist__item">
-                <a href="{{ route('about')}} " class="c-navlist__link o-link">About</a>
-            </li>
-            <li class="c-navlist__item">
-                <a href="{{ route('activities')}} " class="c-navlist__link o-link">Activities</a>
-            </li>
-            <li class="c-navlist__item">
-                <a href="{{ route('contact')}} " class="c-navlist__link o-link">Contact</a>
-            </li>
-        </ul>
-    </nav>
-</header> --}}
 <div id="left-flyout-nav" class="layout-left-flyout visible-sm"></div>
 <div class="layout-right-content">
     <header class="the-header">
@@ -51,8 +32,9 @@
             </ul>
             <ul class="nav nav-pill pull-right">
                 <li><a href=" {{ route('home')}} ">Home</a></li>
-                <li><a href=" {{ route('about')}} ">About</a></li>
-                <li><a href=" {{ route('activities')}} ">Activities</a></li>
+                <li><a href=" {{ route('about')}} ">Activities</a></li>
+                {{-- <li><a href=" {{ route('about')}} ">About</a></li> --}}
+                <li><a href=" {{ route('activities')}} ">Around Nicaragua</a></li>
                 <li><a href=" {{ route('contact')}} ">Contact</a></li>
             </ul>
         </nav>

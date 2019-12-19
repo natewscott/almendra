@@ -12,18 +12,30 @@
 		margin: 0 auto;
 		padding: 5%;
 		
-		article {
+		.about {
 			flex:2;
 			margin-right: 5%;
-			// max-width: 65%;
+
+		figure {
+			margin: 0;
+			display: flex;
+			justify-content: space-around;
+
+			img {
+				margin-right: 2%;
+				max-width: 11.5%;
+			}
 		}
+		
+		}
+
 		aside {
 			// max-width: 25;
 			// padding: 5%;
 			flex:1;
 
 			img {
-				max-width: 100%;
+				max-width: 7%;
 				@include breakpoint(medium) {
 					max-width: 75%;
 				}
