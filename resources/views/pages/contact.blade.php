@@ -11,7 +11,7 @@
 					<h2>Get in touch with us</h2>
 					<p>If you are interested in staying with us, send us a message with any questions that you might have. We will gladly answer them.</p>
 					<p>
-						If you recentlty stayed with us, we would love to hear your experience.
+						If you recently stayed with us, we would love to hear your experience.
 					</p>
 					<div class="formrow">
 						<div class="formitem col1of2">

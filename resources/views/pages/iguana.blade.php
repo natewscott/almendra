@@ -94,7 +94,7 @@
 				</div>
 				<div class="right">
 					<p>
-						<em>Restaurant, Golf and Spa</em> Treat yourself to the life of luxury at Guacalito de La Isla, Nicaragua’s most upscale residential community. Enjoy lunch or dinner at one of Guacalito’s beachfront restaurants (reservation required).  Indulge yourself at their lavish spa, with 6 different choices of spa experiences or challenge yourself on their beautiful 18 hole golf course, designed by David McLay Kidd. Find more info at <a href="http://www.guacalitodelaisla.com">www.guacalitodelaisla.com</a>
+						<em>Restaurant, Golf and Spa</em> Treat yourself to the life of luxury at Guacalito de La Isla, Nicaragua’s most upscale residential community. Enjoy lunch or dinner at one of Guacalito’s beach front restaurants (reservation required).  Indulge yourself at their lavish spa, with 6 different choices of spa experiences or challenge yourself on their beautiful 18 hole golf course, designed by David McLay Kidd. Find more info at <a href="http://www.guacalitodelaisla.com">www.guacalitodelaisla.com</a>
 					</p>
 				</div>
 			</article>
@@ -117,7 +117,7 @@
 						<em>Surfing</em> Take a boat down the coast to San Juan Del Sur and you can stop at Maderas to surf on the way.
 					</p>
 					<p>
-						<em>Activities</em> You will find a large amount of activity options in San Juan del Sur, ranging from Canopy Tours (zip lining), Horseback Riding, ATV Tours, Paintball or just go out exploring the surrounding beaches.
+						<em>Activities</em> You will find a large amount of activity options in San Juan del Sur, ranging from Canopy Tours (zip lining), Horseback Riding, ATV Tours, Paint ball or just go out exploring the surrounding beaches.
 					</p>
 				</div>
 			</article>
