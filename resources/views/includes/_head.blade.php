@@ -14,7 +14,7 @@
             <nav class="the-nav nav-collapse clearfix">
                 <ul class="nav nav-pill pull-left">
                     <li><a href=" {{ route('home')}} ">
-                        <img src="img/logos/casa_almendra_logo-02.svg" alt="Paris Valley Ranch Logo" title="Paris Valley Ranch Logo">
+                        <img src="img/logos/Casa Almendra Logo_Havana Nights.svg" alt="Casa Almendra Logo" title="Casa Almendra Logo">
                     </a>
                 </li>
                 {{-- <li class="dropdown">

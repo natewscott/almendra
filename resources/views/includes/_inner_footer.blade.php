@@ -43,11 +43,11 @@
 			<div >
 				<img src="img/logos/casa_almendra_logo-02.svg" alt="Casa Almendra Logo" title="Casa Almendra Logo" id="foot-logo">
 			</div>
-			<div>
+		   	<div>
 				<a href="https://www.instagram.com/casaalmendrasurf/" target="_blank">Follow us on Instagram</a>
 				<hr>
 			</div>
-			<div class="social">
+	<div class="social">
 					<div class="soc-item">
 						<img src="img/insta/IMG_2124.jpg" alt="">
 					</div>
