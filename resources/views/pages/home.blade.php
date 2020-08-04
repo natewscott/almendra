@@ -1,7 +1,6 @@
 @extends('main')
 @section('description', 'Casa Almendra is located on the Pacfic Ocean in Nicaragua. This amazing 3 story rental faces out on the world class breaks of the Playa Colorados, and is a short walking distance from many other popular surfing locations.')
-@section('keywords', 'surfing, vacation, ocean, beach, central america, nicaragua, rental, rantal house, casa, vacation rental, vacation home')
-@section('content')
+@section('keywords', 'surfing, vacation, ocean, beach, central america, nicaragua, rental, rantal house, casa, vacation rental, vacation home') @section('content')
 <section class="home-intro">
 	<article class="intro-text">
 		<h1>Amazing Views</h1>
